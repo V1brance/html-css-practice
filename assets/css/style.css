@@ -1,13 +1,16 @@
+/* Styling for all elements,, remains unchanged from start */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* Attempted to consolidate with document * tag but that lead to some issues so left unchanged */
 body {
   background-color: #d9dcd6;
 }
 
+/* Renamed from class, new semantic element tag */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,6 +19,8 @@ header {
   color: #ffffff;
 }
 
+/* Next 5 sections remain unchanged, simply denote specific styling in the header of the document */
+/* I was unable to merge most of the CSS into cleaner or consolidated stacks */
 header h1 {
   display: inline-block;
   font-size: 48px;
@@ -42,6 +47,8 @@ header section ul li {
   margin-left: 25px;
 }
 
+/* Last few elements that are modified, I considered here adding color: #ffffff to the * selector however I felt  */
+/* it to be unecessary and could potentially introduce problems if the color scheme changed in individual elements */
 a {
   color: #ffffff;
   text-decoration: none;
@@ -51,6 +58,8 @@ p {
   font-size: 16px;
 }
 
+/* I did not modify this CSS, however the div with this class is now a section */
+/* In fact, for clarity, all classes are applied to sections and not divs, all were changed */
 .hero {
   height: 800px;
   width: 100%;
@@ -87,6 +96,8 @@ p {
   background-color: #2589bd;
 }
 
+/* The next six sections all involve multiple selectors applying the same style. Previously in the CSS */
+/* each stack of selectors was its own block of code, so I cleaned that up to improve readability */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -133,7 +144,9 @@ p {
   font-size: 36px;
 }
 
-.footer {
+/* I did not mess witht the footer much however it is an element selector now rather than a class selector, */
+/* as the HTML file was changed to reflect the semantic Footer element rather than a div with the class */
+footer {
   padding: 30px;
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -141,6 +154,6 @@ p {
   text-align: center;
 }
 
-.footer h2 {
+footer h2 {
   font-size: 20px;
 }
