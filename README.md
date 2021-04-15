@@ -25,7 +25,7 @@ This project involved taking given HTML and CSS code from a clean repository and
 
 ## Project Snapshot
 
-![An image showing a screenshot of my refactored website](./my_mockup.png)
+![An image showing a screenshot of my refactored website](./assets/images/my_mockup.png)
 
 > Sorry about the white line, image stitching is not my strong suit, it is not reflected in the actual website
 
