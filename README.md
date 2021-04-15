@@ -31,4 +31,4 @@ This project involved taking given HTML and CSS code from a clean repository and
  
 ## Link to Deployed Site
 
-[Access my refactored website here: ](https://v1brance.github.io/html-css-practice/)
+Access my deployed site here: [My Website!](https://v1brance.github.io/html-css-practice/)
